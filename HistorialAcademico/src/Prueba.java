@@ -41,5 +41,16 @@ public class Prueba {
         }else{
             System.out.println("EJECUCION INCORRECTA");
         }
+        
+         List<Alumno> listaAlumnos = funbd.obtenerListaAlumnos();
+        if(funbd.obtenerResultadoSQL() == FuncionesBD.EJECUCION_CORRECTA){
+            System.out.println("EJECUCION CORRECTA");
+            listaAlumnos.forEach(System.out::println);
+            
+            //Convertir a observableArrayList
+            FXCollections.observableArrayList(listaAlumnos);
+        }else{
+            System.out.println("EJECUCION INCORRECTA");
+        }
     }
 }

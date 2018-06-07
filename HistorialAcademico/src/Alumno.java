@@ -10,13 +10,13 @@
  */
 public class Alumno {
     /*Nombre de la tabla de los profesores*/
-    public static final String TB_ALUMNOS = "PROFESOR";
+    public static final String TB_ALUMNOS = "ALUMNO";
     /*Nombre de los campos*/
-    public static final String CP_CODIGO = "CODALUMNO";
+    public static final String CP_CODIGO = "codAlumno";
     public static final String CP_NOMBRE = "NOMBREALUM";
     public static final String CP_APELLIDOPAT = "APELLIDOPATALUM";
     public static final String CP_APELLIDOMAT = "APELLIDOMATALUM";
-    public static final String CP_PROMEDIO = "APELLIDOMATPROFE";
+    public static final String CP_PROMEDIO = "PROMPONDERADO";
     public static final String CP_ANIOING = "ANIOINGRESO";
     public static final String CP_IDUSUARIO = "IDUSUARIO";
     

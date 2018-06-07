@@ -104,7 +104,7 @@ public class FuncionesBD {
     
     public List<Alumno> obtenerListaAlumnos() {
         try {
-            String query = "SELECT * FROM "+Usuario.TB_USUARIO;
+            String query = "SELECT * FROM "+Alumno.TB_ALUMNOS;
             ResultSet rs = ejecutarQuery(query);
             if(rs!=null){
                 List<Alumno> listaAlumnos = new LinkedList<>();
