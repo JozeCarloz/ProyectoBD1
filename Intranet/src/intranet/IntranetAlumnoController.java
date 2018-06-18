@@ -1,0 +1,11 @@
+package intranet;
+
+import javafx.fxml.FXML;
+import javafx.scene.control.Label;
+
+public class IntranetAlumnoController {
+
+    @FXML
+    private Label labelApeNom;
+
+}
